@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        run: npm install
+        run: npm install  # 這行會重新幫您產生 package-lock 邏輯
       - name: Build
         run: npm run build
       - name: Upload Artifacts
