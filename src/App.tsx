@@ -1,3 +1,5 @@
+// Version 2.0 - 2026-03-01
+
 import React, { useState } from 'react';
 import { User } from '../types';
 import { Button } from '../components/Button';
