@@ -26,9 +26,10 @@ export default defineConfig(({ mode }) => {
         }
       },
       build: {
-        // 確保編譯輸出的檔案能正確覆蓋舊版
         outDir: 'dist',
         emptyOutDir: true,
+        // 加入下面這行，強迫每次編譯後的檔案名稱都帶有隨機雜湊值
+        hash: true 
       }
     };
 });
