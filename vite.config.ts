@@ -4,7 +4,7 @@ import path from 'path';
 
 export default defineConfig({
   // 務必與您的倉庫名稱一致
-  base: '/cheer-clinic-done/', 
+  base: '/cheer-clinic-final/', 
   plugins: [react()],
   resolve: {
     alias: {
